@@ -1,0 +1,19 @@
+# Dependencies and local build artifacts
+node_modules/
+coverage/
+dist/
+*.log
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Private test sessions or user content: never publish
+.env
+.env.*
+*.har
+*.cookies
+private/
+user-data/
